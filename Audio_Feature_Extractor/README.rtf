@@ -1,3 +1,0 @@
-The Audio Feature Extractor allows you extract audio information from a live input signal, and can be used to classify a variety of instruments and sounds. This patch utilizes the 64 bit version of Tristan Jehan\'92s analyzer~ object. It extracts pitch (Hz), loudness, brightness, and noisiness, sending all of these values to Weckinator on port 6448 once a loudness threshold has been crossed.\
-
-The smoothness slider allows the user to adjust the amount of feature value smoothing, and the threshold slider allows the user to set the loudness trigger threshold. Once this threshold is met, all the feature values will be sent to Wekinator until the loudness level recedes back below the threshold.}
